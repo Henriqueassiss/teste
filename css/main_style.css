@@ -41,10 +41,6 @@ body {
   font-family: var(--open-sans);
 }
 
-body.no-scroll {
-  overflow: hidden;
-}
-
 main {
   padding: 0 15px;
 }
