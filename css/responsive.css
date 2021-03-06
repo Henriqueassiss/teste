@@ -1,0 +1,408 @@
+@media (max-width: 374px) {
+  #top-left-square,
+  .header__links,
+  .intro__img{
+    display: none;
+  }
+}
+
+
+@media (min-width: 375px) and (max-width: 575px) {
+  #top-left-square,
+  .header__links,
+  .intro__img{
+    display: none;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .header__links,
+  .intro__img{
+    display: none;
+  }
+  
+  nav {
+    padding: 5px 30px;
+  }
+
+  main {
+    padding: 0 30px;
+  }
+
+  footer {
+    padding: 64px 30px 0 30px;
+  }
+
+  h1 {
+    font-size: 45px;
+  }
+
+  .intro__text .default-p {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 31px;
+  }
+
+  #benefits .card-grid {
+    justify-content: space-between;
+  }  
+
+  .benefits__card {
+    max-width: 45%;
+  }
+
+  .footer__newsletter {
+    width: 80%;
+    max-width: 100%;
+  }
+
+  .footer__card {
+    width: 30%;
+    max-width: 30%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 849px) {
+  .header__toggle,
+  .header__menu {
+    display: none;
+  }
+
+  nav {
+    padding: 5px 30px;
+  }
+
+  main {
+    padding: 0 30px;
+  }
+
+  footer {
+    padding: 64px 30px 0 30px;
+  }
+  
+  h1 {
+    font-size: 50px;
+  }
+  
+  .intro__text .default-p {
+    font-size: 18px;
+  }
+  
+  h2 {
+    font-size: 44px;
+    
+  }
+
+  #benefits h2,
+  #plans .default-p,
+  #questions .default-p {
+    margin-bottom: 85px;
+  }
+  
+  .card-grid {
+    justify-content: space-between;
+  }  
+
+  .benefits__card {
+    max-width: 32%;
+  }
+
+  #plans .default-p,
+  #questions .default-p,
+  footer .default-p {
+    max-width: 690px;
+  }
+
+  .plans__card {
+    max-width: 48%;
+  }
+
+  .questions__card {
+    max-width: 47%;
+  }
+
+  .footer__newsletter {
+    width: 40%;
+    max-width: 70%;
+  }
+
+  .footer__card {
+    width: 17%;
+    max-width: 17%;
+  }
+}
+
+
+@media (min-width: 850px) and (max-width: 1023px) {
+  .header__toggle,
+  .header__menu {
+    display: none;
+  }
+
+  nav {
+    padding: 5px 30px;
+  }
+
+  main {
+    padding: 0 30px;
+  }
+
+  footer {
+    padding: 64px 30px 0 30px;
+  }
+
+  #intro {
+    flex-direction: row-reverse;
+  }
+  
+  #intro img {
+    margin-bottom: 0;
+    max-height: 470px;
+  } 
+  
+  .intro__text {
+    max-width: 493px;
+    min-width: 320px;
+    align-items: flex-start;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .intro__text .default-p {
+    font-size: 18px;
+  }
+  
+  .blue-p,
+  h1,
+  .intro__text .default-p {
+    text-align: left;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  #benefits h2,
+  #plans .default-p,
+  #questions .default-p {
+    margin-bottom: 85px;
+  }
+
+  .card-grid {
+    justify-content: space-between;
+  }  
+
+  .benefits__card {
+    max-width: 30%;
+    margin-bottom: 90px;
+  }
+
+  #plans .default-p,
+  #questions .default-p,
+  footer .default-p {
+    max-width: 690px;
+  }
+
+  .plans__card {
+    max-width: 48%;
+  }
+
+  .questions__card {
+    max-width: 47%;
+  }
+
+  .footer__newsletter {
+    width: 40%;
+    max-width: 70%;
+  }
+
+  .footer__card {
+    width: 15%;
+    max-width: 15%;
+  }
+}
+
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .header__toggle,
+  .header__menu {
+    display: none;
+  }
+
+  nav {
+    padding: 5px 35px;
+  }
+
+  main {
+    padding: 0 35px;
+  }
+
+  footer {
+    padding: 64px 35px 0 35px;
+  }
+
+  #intro {
+    flex-direction: row-reverse;
+  }
+
+  #intro img {
+    margin-bottom: 0;
+    max-height: 565px;
+  }
+
+  .intro__text {
+    align-items: flex-start;
+  }
+
+  h1 {
+    font-size: 55px;
+  }
+
+  .intro__text .default-p {
+    font-size: 18px;
+  }
+
+  h1,
+  .intro__text .default-p {
+    text-align: left;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  #benefits h2,
+  #plans .default-p,
+  #questions .default-p {
+    margin-bottom: 85px;
+  }
+  
+  .card-grid {
+    justify-content: space-between;
+  }  
+
+  .benefits__card {
+    max-width: 30%;
+    margin-bottom: 90px;
+  }
+
+  #plans .default-p,
+  #questions .default-p,
+  footer .default-p {
+    max-width: 690px;
+  }
+
+  .plans__card {
+    max-width: 32%;
+  }
+
+  .questions__card {
+    max-width: 47%;
+  }
+
+  .footer__newsletter {
+    width: 40%;
+    max-width: 70%;
+  }
+
+  .footer__card {
+    width: 15%;
+    max-width: 15%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header__toggle,
+  .header__menu {
+    display: none;
+  }
+
+  nav {
+    padding: 5px 35px;
+  }
+
+  main {
+    padding: 0 35px;
+  }
+
+  footer {
+    padding: 64px 35px 0 35px;
+  }
+
+  #intro {
+    flex-direction: row-reverse;
+  }
+
+  #intro img {
+    margin-bottom: 0;
+    max-height: 617px;
+  }
+
+  .intro__text {
+    align-items: flex-start ;
+  }
+
+  h1 {
+    font-size: 65px;
+  }
+
+  .intro__text .default-p {
+    font-size: 18px;
+  }
+
+  h1,
+  .intro__text .default-p {
+    text-align: left;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  #benefits h2,
+  #plans .default-p,
+  #questions .default-p {
+    margin-bottom: 85px;
+  }
+
+  .card-grid {
+    justify-content: space-between;
+  }   
+
+  .benefits__card {
+    max-width: 30%;
+    margin-bottom: 90px;
+  }
+
+  #plans .default-p,
+  #questions .default-p,
+  footer .default-p {
+    max-width: 770px;
+  }
+
+  .plans__card {
+    max-width: 32%;
+  }
+
+  .questions__card {
+    max-width: 48%;
+  }
+
+  .footer__newsletter {
+    width: 40%;
+    max-width: 70%;
+  }
+
+  .footer__card {
+    width: 12%;
+    max-width: 12%;
+  }
+}

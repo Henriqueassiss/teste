@@ -1,0 +1,123 @@
+.header {
+  width: 100%;
+  z-index: 9999;
+  position: fixed;
+  background-color: transparent;
+}
+
+.header,
+nav,
+.header__logo,
+.header__toggle,
+.header__toggle span {
+  transition: all 300ms ease;
+}
+
+
+.header.active {
+  box-shadow: 5px 0 3px var(--shadow);
+  background-color: var(--light-wine);
+}
+
+.header.active .header__logo,
+.header.active .header__toggle {
+  transform: scale(0.8);
+}
+
+.header.active .header__links {
+  transform: scale(0.9);
+}
+
+nav {
+  width: 100%;
+  padding: 5px 15px;
+}
+
+.header__logo {
+  transform-origin: center left ;
+}
+
+.header__toogle {
+  transform-origin: center right ;
+}
+
+.header__toggle span{
+  width: 30px;
+  height: 3px;
+  display: block;
+  transform-origin: 4px 2px;
+  background-color: var(--white);
+}
+
+.header__toggle span:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.header__toggle.active span:first-child{
+  transform: rotate(45deg);
+}
+
+.header__toggle.active span:nth-child(2){
+  opacity: 0;
+}
+
+.header__toggle.active span:last-child{
+  transform: rotate(-45deg);
+}
+
+.header__menu {
+  top: 0;
+  left: -200px;
+  padding: 20px 0;
+  position: absolute;
+  flex-direction: column;
+  border-radius: 0 0 20px 0;
+  transition: left 300ms ease;
+  background-color: var(--light-wine);
+  box-shadow: 5px 5px 3px var(--shadow);
+}
+
+.header__menu.active {
+  left: 0;
+}
+
+.header__menu a {
+  padding: 15px 60px;
+}
+
+.header__menu a,
+.header__links a {
+  font-weight: 400;
+  position: relative;
+  font-size: var(--font-xs);
+  text-transform: uppercase;
+  transition: color 300ms ease;
+}
+
+.header__links {
+  transition: all 300ms ease;
+  transform-origin: center right;
+}
+
+.header__links a:not(:last-child) {
+  margin-right: 36px; 
+}
+
+.header__links a:hover {
+  color: var(--pink);
+}
+
+.header__links a::after {
+  left: 0;
+  width: 0;
+  height: 1px;
+  content: '';
+  bottom: -5px;
+  position: absolute;
+  transition: width 300ms ease;
+  background-color: var(--pink);
+}
+
+.header__links a:hover::after {
+  width: 100%;
+}

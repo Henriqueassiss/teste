@@ -1,0 +1,12 @@
+#benefits h2 {
+  margin-bottom: 50px;
+}
+
+.benefits__card {
+  max-width: 545px;
+  margin-bottom: 40px;
+}
+
+.benefits__card img {
+  margin-bottom: 30px;
+}

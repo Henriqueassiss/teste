@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Project 1</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main_style.css">
+  <link rel="stylesheet" href="css/components/header.css">
+  <link rel="stylesheet" href="css/components/intro.css">
+  <link rel="stylesheet" href="css/components/benefits.css">
+  <link rel="stylesheet" href="css/components/plans.css">
+  <link rel="stylesheet" href="css/components/questions.css">
+  <link rel="stylesheet" href="css/components/footer.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script src="https://kit.fontawesome.com/d2abe594f9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- Start Header -->
+  <header class="header flex jc-c ai-c">
+
+    <nav class="flex jc-sb ai-c max-content">
+
+      <a href="/" class="header__logo">
+        <img src="assets/images/logo.png" alt="Eco-hosting">
+      </a>
+
+      <a href="javascript:void(0);" onclick="showMenu()" class="header__toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+
+      <div class="header__links flex jc-sb ai-fs">
+        <a href="#intro">home</a>
+        <a href="#benefits">benefits</a>
+        <a href="#plans">plans</a>
+        <a href="#questions">questions</a>
+      </div>
+
+    </nav>
+
+    <div class="header__menu flex jc-sb ai-fs">
+      <a href="#intro">home</a>
+      <a href="#benefits">benefits</a>
+      <a href="#plans">plans</a>
+      <a href="#questions">questions</a>
+    </div>
+
+  </header>
+  <!-- End Header -->
+
+  <!-- Start Main -->
+  <main class="flex jc-c ai-c fd-c">
+
+    <!-- Start Intro -->
+    <section id="intro" class="flex jc-sb ai-c max-content">
+
+      <img src="assets/images/hero_right.png" alt="Hero Image">
+
+      <div class="intro__text flex jc-c fd-c">
+        <p class="blue-p">
+          Best Domain &amp; hosting service provider
+        </p>
+        <h1>Powerful web hosting</h1>
+        <p class="default-p">
+          Supercharge your WordPress hosting with detailed
+          website analytics, marketing tools, security, and data
+          backups all in one place.
+        </p>
+        <a href="#" class="button">get started</a>
+      </div>
+
+    </section>
+    <!-- End Intro -->
+
+    <!-- Start Benefits -->
+    <section id="benefits" class="flex jc-sb ai-c fd-c max-content">
+
+      <h2>Most amazing features</h2>
+
+      <div class="card-grid flex ai-c f-w">
+
+        <article class="benefits__card flex jc-sb ai-c fd-c">
+          <img src="assets/icons/icon1.svg" alt="Icon 1">
+          <h3>Employee owned</h3>
+          <p class="default-p">
+            Supercharge your WordPress hosting with detailed
+            website analytics, marketing tools.
+          </p>
+        </article>
+
+        <article class="benefits__card flex jc-sb ai-c fd-c">
+          <img src="assets/icons/icon2.svg" alt="Icon 2">
+          <h3>commitment to security</h3>
+          <p class="default-p">
+            Supercharge your WordPress hosting with detailed
+            website analytics, marketing tools.
+          </p>
+        </article>
+
+        <article class="benefits__card flex jc-sb ai-c fd-c">
+          <img src="assets/icons/icon3.svg" alt="Icon 3">
+          <h3>passion for privacy</h3>
+          <p class="default-p">
+            Supercharge your WordPress hosting with detailed
+            website analytics, marketing tools.
+          </p>
+        </article>
+
+        <article class="benefits__card flex jc-sb ai-c fd-c">
+          <img src="assets/icons/icon4.svg" alt="Icon 4">
+          <h3>Employee owned</h3>
+          <p class="default-p">
+            Supercharge your WordPress hosting with detailed
+            website analytics, marketing tools.
+          </p>
+        </article>
+
+        <article class="benefits__card flex jc-sb ai-c fd-c">
+          <img src="assets/icons/icon5.svg" alt="Icon 5">
+          <h3>24/7 support</h3>
+          <p class="default-p">
+            Supercharge your WordPress hosting with detailed
+            website analytics, marketing tools.
+          </p>
+        </article>
+
+        <article class="benefits__card flex jc-sb ai-c fd-c">
+          <img src="assets/icons/icon6.svg" alt="Icon 6">
+          <h3>100% uptime guaranteed</h3>
+          <p class="default-p">
+            Supercharge your WordPress hosting with detailed
+            website analytics, marketing tools.
+          </p>
+        </article>
+
+      </div>
+
+    </section>
+    <!-- End Benefits -->
+
+    <!-- Start Plans -->
+    <section id="plans" class="flex jc-sb ai-c fd-c max-content">
+
+      <h2>Choose a plan which fit for you</h2>
+
+      <p class="default-p">
+        Supercharge your WordPress hosting with detailed website analytics, marketing tools. Our experts are just part
+        of the reason Bluehost is the ideal home for your WordPress website. We're here to help you succeed!
+      </p>
+
+      <div class="card-grid flex ai-c f-w">
+
+        <article class="plans__card flex jc-sb ai-c fd-c">
+          <img src="assets/icons/icon7.svg" alt="Icon 7">
+          <h3 class="plans__name">shared hosting</h3>
+          <span>Starting at</span>
+
+          <p class="plans__price">
+            <b>$4.67</b> / month
+          </p>
+
+          <div class="divider"></div>
+
+          <ul class="plans_list">
+            <li class="plans__attributes">2 TB of space</li>
+            <li class="plans__attributes">unlimited bandwidth</li>
+            <li class="plans__attributes">free domain</li>
+            <li class="plans__attributes">unlimited database</li>
+          </ul>
+
+          <a href="#" class="button">get started</a>
+        </article>
+
+        <article class="plans__card flex jc-sb ai-c fd-c">
+          <img src="assets/icons/icon8.svg" alt="Icon 8">
+          <h3 class="plans__name">dedicated hosting</h3>
+          <span>Starting at</span>
+
+          <p class="plans__price">
+            <b>$4.67</b> / month
+          </p>
+
+          <div class="divider"></div>
+
+          <ul class="plans_list">
+            <li class="plans__attributes">2 TB of space</li>
+            <li class="plans__attributes">unlimited bandwidth</li>
+            <li class="plans__attributes">free domain</li>
+            <li class="plans__attributes">unlimited database</li>
+          </ul>
+
+          <a href="#" class="button">get started</a>
+        </article>
+
+        <article class="plans__card flex jc-sb ai-c fd-c">
+          <img src="assets/icons/icon9.svg" alt="Icon 9">
+          <h3 class="plans__name">cloud hosting</h3>
+          <span>Starting at</span>
+
+          <p class="plans__price">
+            <b>$4.67</b> / month
+          </p>
+
+          <div class="divider"></div>
+
+          <ul class="plans_list">
+            <li class="plans__attributes">2 TB of space</li>
+            <li class="plans__attributes">unlimited bandwidth</li>
+            <li class="plans__attributes">free domain</li>
+            <li class="plans__attributes">unlimited database</li>
+          </ul>
+
+          <a href="#" class="button">get started</a>
+        </article>
+
+      </div>
+
+    </section>
+    <!-- End Plans -->
+
+    <!-- Start Questions -->
+    <section id="questions" class="flex jc-sb ai-c fd-c max-content">
+
+      <h2>Frequently ask questions</h2>
+
+      <p class="default-p">
+        Supercharge your WordPress hosting with detailed website analytics, marketing tools. Our experts are just part
+        of the reason Bluehost is the ideal home for your WordPress website. We're here to help you succeed!
+      </p>
+
+      <div class="card-grid flex ai-c f-w">
+
+        <article class="questions__card flex jc-sb ai-fs">
+
+          <span class="questions__icon">Q.</span>
+
+          <div class="questions__text flex jc-sb ai-c fd-c">
+
+            <h4>Why can't people connect to the web server on my PC?</h4>
+
+            <p class="sm-default-p questions__answer">
+              We operate one of the most advanced 100 Gbit networks in the world, complete with Anycast support and
+              extensive DDoS protection.
+            </p>
+
+          </div>
+
+        </article>
+
+        <article class="questions__card flex jc-sb ai-fs">
+
+          <span class="questions__icon">Q.</span>
+
+          <div class="questions__text flex jc-sb ai-c fd-c">
+
+            <h4>Why does Internet Information Server want a password?</h4>
+
+            <p class="sm-default-p questions__answer">
+              We operate one of the most advanced 100 Gbit networks in the world, complete with Anycast support and
+              extensive DDoS protection.
+            </p>
+
+          </div>
+
+        </article>
+
+        <article class="questions__card flex jc-sb ai-fs">
+
+          <span class="questions__icon">Q.</span>
+
+          <div class="questions__text flex jc-sb ai-c fd-c">
+
+            <h4>What domain name should I choose for my site?</h4>
+
+            <p class="sm-default-p questions__answer">
+              We operate one of the most advanced 100 Gbit networks in the world, complete with Anycast support and
+              extensive DDoS protection.
+            </p>
+
+          </div>
+
+        </article>
+
+        <article class="questions__card flex jc-sb ai-fs">
+
+          <span class="questions__icon">Q.</span>
+
+          <div class="questions__text flex jc-sb ai-c fd-c">
+
+            <h4>How can I make my website work without www. in front?</h4>
+
+            <p class="sm-default-p questions__answer">
+              We operate one of the most advanced 100 Gbit networks in the world, complete with Anycast support and
+              extensive DDoS protection.
+            </p>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+    <!-- End Questions -->
+
+  </main>
+  <!-- End Main -->
+
+  <!-- Start Footer -->
+  <footer class="flex jc-sb ai-c fd-c">
+
+    <div class="footer__container card-grid flex ai-c f-w max-content">
+
+      <div class="footer__newsletter flex jc-sb ai-c fd-c">
+
+        <a href="/" class="footer__logo">
+          <img src="assets/images/logo.png" alt="Eco-hosting">
+        </a>
+
+        <p class="default-p">
+          Subscribe our newsletter to get updates about our services.
+        </p>
+
+        <input type="text" placeholder="Your email address">
+
+        <a href="#" class="square-button">Subscribe</a>
+
+        <div class="footer__social">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+
+      </div>
+
+      <div class="footer__card flex jc-sb ai-c fd-c">
+
+        <h5>Company</h5>
+
+        <ul>
+          <li><a href="#" class="footer__link">Why choose us</a></li>
+          <li><a href="#" class="footer__link">Review</a></li>
+          <li><a href="#" class="footer__link">Customers</a></li>
+          <li><a href="#" class="footer__link">Blog</a></li>
+          <li><a href="#" class="footer__link">Carrier</a></li>
+        </ul>
+
+      </div>
+
+      <div class="footer__card flex jc-sb ai-c fd-c">
+
+        <h5>Products</h5>
+
+        <ul>
+          <li><a href="#" class="footer__link">Why choose us</a></li>
+          <li><a href="#" class="footer__link">Review</a></li>
+          <li><a href="#" class="footer__link">Customers</a></li>
+          <li><a href="#" class="footer__link">Blog</a></li>
+          <li><a href="#" class="footer__link">Carrier</a></li>
+        </ul>
+
+      </div>
+
+      <div class="footer__card flex jc-sb ai-c fd-c">
+
+        <h5>Support</h5>
+
+        <ul>
+          <li><a href="#" class="footer__link">Why choose us</a></li>
+          <li><a href="#" class="footer__link">Review</a></li>
+          <li><a href="#" class="footer__link">Customers</a></li>
+          <li><a href="#" class="footer__link">Blog</a></li>
+          <li><a href="#" class="footer__link">Carrier</a></li>
+        </ul>
+
+      </div>
+
+    </div>
+
+    <p class="default-p">
+      Copyright &copy;2021 All rights reserved | Made by Henrique Assis
+    </p>
+
+  </footer>
+  <!-- End Footer -->
+
+  <img id="top-left-square" src="assets/images/top-left-shape.webp" alt="Top Left Square">
+
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>

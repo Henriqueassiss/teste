@@ -1,0 +1,23 @@
+#intro {
+  flex-direction: column;
+}
+
+.intro__text {
+  align-items: center;
+}
+
+#intro img {
+  max-height: 440px;
+  margin-bottom: 20px;
+}
+
+.blue-p {
+  text-align: center;
+  margin-bottom: 15px;
+  color: var(--purple);
+  font-size: var(--font-sm);
+}
+
+.intro__text .default-p {
+  margin-bottom: 40px;
+}
