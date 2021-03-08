@@ -37,9 +37,9 @@ nav {
   transform-origin: center left ;
 }
 
-.header__toogle {
+/* .header__toogle {
   transform-origin: center right ;
-}
+} */
 
 .header__toggle span{
   width: 30px;

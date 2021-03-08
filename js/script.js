@@ -4,7 +4,6 @@ const menuLinks = document.querySelector(".header__menu");
 
 // Show Menu On Mobile Devices
 const showMenu = () => {
-  console.log("clicked");
   if (menuBtn.classList.contains("active")) {
     menuBtn.classList.remove("active");
     menuLinks.classList.remove("active");
@@ -12,12 +11,6 @@ const showMenu = () => {
     menuBtn.classList.add("active");
     menuLinks.classList.add("active");
   }
-  window.onclick = function (event) {
-    if (!event.target.matches(".header__toggle")) {
-      menuBtn.classList.remove("active");
-      menuLinks.classList.remove("active");
-    }
-  };
 };
 
 // On Scroll Resize Header
